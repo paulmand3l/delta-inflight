@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../Button';
-import deltaStudio from '~/assets/deltaStudio.png';
+import deltaStudio from '~/assets/deltastudio.png';
 import styles from './SpotlightPage.module.styl';
 
 interface SpotlightPageProps extends React.ComponentPropsWithoutRef<'div'> {
