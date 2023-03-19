@@ -1,0 +1,76 @@
+.MediaSelector
+  width 100%
+  height 100%
+  padding 120px 80px 0 80px
+
+  .options
+    display flex
+    gap 18px
+
+    > *
+      border-radius: 4px
+      cursor: pointer
+
+    .filter
+      flex 1
+      display: flex
+      align-items: center
+      background: rgb(11, 40, 70)
+      height 60px;
+      padding 0px 18px 0px 28px
+
+      .title
+        font-size: 22pt
+        flex 1
+
+      .icons
+        display: flex
+        align-items: center
+        gap 6px
+
+        svg
+          position relative
+          top -1px
+
+  .mediaContainer
+    margin-top: 36px
+    display flex
+    height 520px
+
+    &.column
+      .media
+        flex-direction: row
+        gap 16px
+
+      .medio
+        width 285px
+        font-size: 16pt
+
+    &.grid
+      .media
+        position relative
+        flex-direction: column
+        flex-wrap: wrap
+        gap 16px
+
+      .medio
+        width 112px
+        height 45%
+        flex none
+
+    .media
+      display flex
+      height 100%
+
+    .medio
+      flex none
+      display flex
+      flex-direction: column
+      font-size: 14pt
+      gap 4px
+      cursor: pointer
+
+      .mediaTitle
+        white-space: nowrap
+        text-overflow: ellipsis
+        overflow hidden

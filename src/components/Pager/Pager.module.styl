@@ -1,0 +1,26 @@
+.Pager
+  width 100%
+  height 100%
+  overflow hidden
+
+  .pagerButtons
+    position absolute;
+    width 100%;
+    height 100%;
+    display flex
+    align-items: center
+    justify-content: space-between
+    font-size 64pt;
+    color: rgb(163, 163, 163);
+    padding 0 16px
+    z-index 100
+
+  .pages
+    width 100%
+    height 100%
+    display flex
+    flex-direction: row
+
+    > *
+      flex none
+      transition: 500ms ease-out;
